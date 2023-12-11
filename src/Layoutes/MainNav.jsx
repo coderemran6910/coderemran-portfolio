@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import About from "../components/About";
+import Projects from "../components/Projects";
 
 const MainNav = () => {
     const menu =<>
@@ -40,6 +41,7 @@ const MainNav = () => {
        <div className=" absolute">
        <Banner />
        <About />
+       <Projects />
        </div>
 
     Content
